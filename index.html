@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Resource Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cloud Resource Manager</h1>
+        <input type="file" id="fileInput" multiple>
+        <button id="uploadButton">Upload</button>
+        <div class="file-list-container">
+            <ul id="fileList"></ul>
+        </div>
+        <div id="totalSize">Total Size: 0 KB</div>
+
+        <!-- File content display area -->
+        <div id="fileContentArea" style="display:none;">
+            <h2>File Content</h2>
+            <div id="contentDisplay"></div>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
